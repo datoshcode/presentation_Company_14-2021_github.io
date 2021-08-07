@@ -1,0 +1,162 @@
+<!-- 
+Cайт лендинг-пейдж свёрстан по макету "Company";
+Автор вёрстки: Андрей Овчаров;
+Дата вёрстки: 07.08.2021; 
+E-mail: datoshcode@gmail.com.
+Все авторские права на графический макет, принадлежат его автору. 
+Сайт сверстан с ознакомительной целью, без получения коммерческой выгоды.
+
+HTML-код успешно прошел проверку данных на валидность с помощью: https://validator.w3.org. Ошибок не обнаружено.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    
+    <!-- Подключем внешний шрифт Roboto с Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
+    rel="stylesheet">
+    
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/reset+.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+      
+      <!-- Логотип сайта -->
+      <div class="header__logo">
+        <a href="#">
+          <img class="logo" src="images/logo.png" alt="Логотип">
+        </a>
+      </div>
+       
+       <!-- Меню сайта /begin-code -->
+      <nav class="menu" id="menu">
+      <!-- Кнопка меню для мобильной версии -->
+        <button class="menu-btn"></button>
+        <ul class="menu__list">
+        
+        <!-- 1. Aktuelles-->
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
+          Aktuelles
+          </a>
+        </li>
+        
+        <!-- 2. Philosophie -->
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
+           Philosophie  
+          </a>
+        </li>
+        
+        <!-- 3. Besonderheiten -->
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
+           Besonderheiten  
+          </a>
+        </li>
+        
+         <!-- 4. Partner -->
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
+          Partner  
+          </a>
+        </li>
+        
+        <!-- 5. Kontakt -->
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
+          Kontakt 
+          </a>
+        </li>
+        
+         <!-- 6. Impressum -->
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
+          Impressum
+          </a>
+        </li>
+        </ul>
+      </nav> 
+       <!-- Меню сайта /end-code -->
+      </header>
+      
+      <main class="main">
+        <div class="main__image">
+          <img class="main-bg" src="images/content-img.jpg" alt="Офис">
+        </div>
+        
+        <div class="main__inner" >
+        
+        <article class="main-content">
+          <h2 class="main-content__title"> 
+            Sehr geehrte Patienten,
+          </h2>
+          
+          <p>
+          wir freuen uns, dass Sie sich fur unsere Praxis fur moderne
+          Zahnheilkunde interessieren - herzlich willkommen!
+          </p>
+
+          <p>
+          Die Homepage soll Ihnen einen ersten Einblick in das 
+          Leistungsspektrum und die Behandlungsphilosophie vermitteln. Es wird 
+          Sie interessieren, wie schonend und sorgsam ein Zahnarztbesuch sein 
+          kann.
+          </p>
+          
+          <p>
+          Sie sind herzlich eingeladen, sich bei einem Besuch in meiner Praxis 
+          mit ihren <br>
+          Fragen und Wunschen anzuvertrauen.
+          </p>
+          
+          <p>
+          Ihre Dr. Dr. Gunther Chmelitschek und Dr. Thomas Chmelitschek
+          </p>
+        </article>
+        
+        <aside class="contacts">
+        <h2 class="contacts-title">
+          Sprechzeiten
+        </h2>
+        
+        <ul class="contacts__adress">
+          <li>Zahnarztpraxis Dr. Dr. Chmelitschek</li>
+          <li>Stollstr. 6</li>
+          <li>83022 Rosenheim</li>
+        </ul>
+        
+        <ul class="contacts__work-time">
+          <li>Mo-Fr von 08:00-18:00 Uhr </li>
+          <li>und nach Vereinbarung</li>
+        </ul>
+        </aside>
+        </div>
+      </main>
+      
+      <footer>
+      <p class="footer">
+        Zahnarztpraxis Chmelitschek &copy; 2011
+      </p>
+      </footer>
+    </div>
+    
+      <!-- Scripts /BEGIN-CODE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Scripts /END-CODE -->
+  </body>
+</html>

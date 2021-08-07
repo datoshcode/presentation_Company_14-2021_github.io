@@ -1,0 +1,113 @@
+/* Общие стили сайта */
+
+body {
+  background-image: linear-gradient(to top, #f5f5f5, #f8f8f8, #ffffff);
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #555555;
+  line-height: 18px;
+}
+
+.contacts {
+  font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+}
+
+.container {
+  max-width: 755px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 35px auto 0 auto;
+  padding: 0 10px;
+}
+
+.menu {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu__list {
+  background: #ffffff;
+  font-size: 14px;
+  border: 1px solid #f3f3f3;
+  border-bottom: 4px solid #9dc5f0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  
+}
+
+.menu__list-item {
+  border-left: 1px solid #f3f3f3;
+  padding: 8px 25px;
+}
+
+.menu__list-item:first-child {
+  border-left: none;
+}
+
+.menu__list-link {
+  color: #5f5d67;
+  transition: text-shadow .3s;
+  letter-spacing: .5px;
+  position: relative;
+}
+
+.menu__list-link:hover {
+  text-shadow: 0 0 .66px #333, 0 0 .66px #333;  
+}
+
+.main-bg {
+  margin-bottom: 20px;
+}
+
+.main__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  background: #ffffff;
+  padding: 30px 20px 50px;
+  width: 480px;
+}
+
+.main-content__title {
+  font-family: "Times New Roman", serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  background: #ffffff;
+  padding: 30px 20px 50px;
+  width: 260px;
+}
+  
+.contacts-title {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contacts__adress,
+.contacts__work-time {
+  list-style: none;
+  color: #333333;
+}
+
+.contacts__adress {
+  padding-bottom: 20px;
+}
+
+.footer {
+  padding: 15px 10px 45px 10px;
+  color: #5f5d67;
+  
+}

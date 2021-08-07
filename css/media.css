@@ -1,0 +1,144 @@
+/* Стили для адаптива сайта */
+
+/* max-width: 763px */
+@media (max-width: 763px) {
+  .main-content {
+    width: 440px;
+  }
+}
+
+/* max-width: 730px */
+@media (max-width: 730px) { 
+  .logo {
+  margin: 0 auto;  
+  }
+  
+  .menu {
+    margin-top: 0px;
+  }
+  
+  .main__inner{
+    flex-wrap: wrap;
+  }
+  
+  .main-content,
+  .contacts {
+    width: 100%;
+  }
+   
+  .main-content {
+    margin-bottom: 20px;
+  }
+  
+  .menu__list {
+    display: block;
+    position: absolute;
+    top: -7px;
+    right: 0;
+    background-color: #9ec2db;
+    border-bottom-left-radius: 50px;
+    border-bottom: 20px solid #2c8ed2;
+    border-left: transparent;
+    text-align: center;
+    padding: 20px 0;
+    transform: translateY(-500px);
+    transition: all 0.5s;
+    z-index: 5;
+  }
+  
+  .menu__list-item {
+    border-left: none;
+    padding: 3px 25px;
+  }
+  
+  .menu__list.menu__list--active {
+    transform: translateY(0);
+  }
+  
+  .menu__list-link {
+    padding: 25px 0;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  .menu__list-link:hover {
+  color: #ffffff;  
+}
+  
+  .menu-btn {
+    display: block;
+    width: 35px;
+    height: 24px;
+    border: none;
+    border-top: 4px solid #969696;
+    border-bottom: 4px solid #969696;
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto; 
+  }
+
+  .menu-btn::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    background-color: #969696;
+    left: 0;
+    top: 6px;
+  }
+  
+  .main-bg {
+    margin-top: 20px;
+}
+
+/* max-width: 580px */
+@media (max-width: 580px) { 
+.menu__list-link {
+    padding: 20px 0;
+  }
+}
+
+/* max-width: 450px */
+@media (max-width: 450px) { 
+
+ .menu-btn {
+    margin: 10px 100px;
+}
+.menu__list-link {
+    padding: 16px 0;
+  }
+}
+
+/* max-width: 400px */
+@media (max-width: 400px) { 
+
+.menu__list-link {
+    padding: 14px 0;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+}
+
+/* max-width: 385px */
+@media (max-width: 385px) { 
+ .menu-btn {
+    margin: 10px 60px;
+}
+}
+
+/* max-width: 350px */
+@media (max-width: 350px) { 
+
+.menu__list-link {
+    padding: 12px 0;
+  }
+  
+  /* max-width: 330px */
+@media (max-width: 330px) { 
+
+.menu__list-link {
+    padding: 10px 0;
+  }
